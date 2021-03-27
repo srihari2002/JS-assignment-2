@@ -1,0 +1,57 @@
+
+#main{
+    width: 100%;
+    line-height: 1.7;
+    padding:10px;
+    
+ }
+
+#inp{
+    height: 46px;
+    width: 268px;
+    outline: 0;
+    border-width: 0 0 3px;
+    border-color: rgb(62, 28, 255);
+    font-size: 22px;
+  }
+  #main button{
+    width: 130px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #444;
+    background: rgb(255, 255, 255);
+    box-shadow:0 7px 8px rgba(0, 0, 0, 0.589);
+     
+    
+  }
+  
+  #main button:hover{
+     background-color: rgb(90, 80, 235);
+     color: white;
+  }
+  
+  #main button:active {
+    background-color: rgb(100, 86, 224);
+    box-shadow:0 3px 8px rgba(0, 0, 0, 0.589);
+    transform: translateY(4px);
+  }
+  #result{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  
+  #Des{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 600;
+  }
